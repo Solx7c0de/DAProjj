@@ -1,0 +1,10 @@
+Activity,Activity Name,Predecessors,Optimistic Time,Most Likely Time,Pessimistic Time,Duration
+A,Site Clearance,,2,4,6,4
+B,Foundation Excavation,A,3,5,9,5
+C,Concrete Pouring,B,2,3,4,3
+D,Framing,B,4,6,8,6
+E,Roofing,D,3,5,6,5
+F,Plumbing,C,2,4,6,4
+F,Plumbing,D,2,4,6,4
+G,Finishing,E,1,2,3,2
+G,Finishing,F,1,2,3,2
