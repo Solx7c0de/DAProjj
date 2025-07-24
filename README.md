@@ -17,39 +17,55 @@ P.M. Tool/
 └── .gitignore
 
 
-## ✅ Features
+
+---
+
+## ✅ Features Implemented
 
 - ✅ CPM (Critical Path Method) scheduling
-- ✅ PERT-based uncertainty handling
-- 🔄 Resource leveling & smoothing
-- 📊 Matplotlib / Plotly-based Gantt charts
-- 🧠 ML-based delay prediction (planned)
-- 🗄️ SQLite database integration
+- ✅ PERT-based analysis using optimistic, pessimistic, and most-likely durations
+- ✅ Critical path identification
+- ✅ Total float & slack calculation
+- ✅ Early Start (ES), Early Finish (EF), Late Start (LS), Late Finish (LF)
+- ✅ Project duration & critical variance computation
+- ✅ Probability of target completion (Z-score & deviation)
+- ✅ Matplotlib Gantt chart visualization
+- ✅ Streamlit-based UI for input, config & output
+- ✅ SQLite database setup for future integration
+
+---
+
+## 🐞 Known Bugs (to be fixed)
+
+- ❌ Target duration probability button non-functional
+- ❌ Formula display UI incorrectly formats values
+- ❌ No exception handling for incorrect Excel headers or nulls
+- ⏳ Minor formatting issues on Gantt chart for longer activity names
+
+---
+
+## 🚀 Planned Future Updates
+
+- 🔜 AOA (Activity-on-Arrow) network diagram (using `networkx` or `graphviz`)
+- 🔜 Crash cost analysis module with trade-off curves
+- 🔜 Delay prediction module using historical project datasets
+- 🔜 Resource leveling & smoothing with priority heuristics
+- 🔜 Export final schedule as PDF / Excel with legends and charts
+- 🔜 Fully fleged app deployment with all mentioned features for easy access.
+---
 
 ## 📦 Getting Started
 
 ```bash
+# Clone the repository
 git clone https://github.com/Solx7c0de/DAProjj
-cd DAProj
+cd DAProjj
+
+# Install dependencies
 pip install -r requirements.txt
-```
-
-## Prerequsites
-
-Python 3.8+
-
-pandas, numpy, openpyxl, matplotlib, plotly
-
-Jupyter Notebook or VSCode with Jupyter extension
 
 
-## Timeline
-Week 1–2: CPM/PERT implementation
 
-Week 3: Gantt chart visualizations
 
-Week 4: SQLite database integration
-
-Week 5+: AI model for delay prediction (optional)
 
 
