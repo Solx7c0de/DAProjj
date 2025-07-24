@@ -64,6 +64,10 @@ cd DAProjj
 # Install dependencies
 pip install -r requirements.txt
 
+# navigate to the project root first
+streamlit run scripts/app.py
+
+#add the tasks cleaned V1 file from the data -> cleaned folder.. Welcome!
 
 
 
