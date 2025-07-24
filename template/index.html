@@ -1,0 +1,15 @@
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit" value="Run PERT">
+</form>
+
+{% if tables %}
+    <h2>PERT Results</h2>
+    {{ tables|safe }}
+
+    <h3>Critical Path</h3>
+    <p>{{ critical_path }}</p>
+
+    <h3>AOA Network Diagram</h3>
+    <img src="data:image/png;base64,{{ aoa_image }}" alt="AOA Network">
+{% endif %}
