@@ -1,7 +1,7 @@
 
 # Data Analytics Project ( P.M. Tool)
 
-A backend-focused project scheduling engine inspired by Primavera, built using Python and SQLite. It supports CPM/PERT-based scheduling, resource optimization, and aims to integrate AI-based risk analysis.
+A streamlit deployable, programme consisting of modular scripts, which could do analysis based on statistical methods of CPM, PERT, still in progress for future ammends and additions.
 
 ##  Project Structure
 
